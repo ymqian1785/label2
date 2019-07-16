@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1049</width>
+    <height>677</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="5,0">
+    <item>
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>549</width>
+         <height>612</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,0,0,0,0">
+      <item>
+       <widget class="QToolButton" name="toolButton_2">
+        <property name="text">
+         <string>Box Labels</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>0/100</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QToolButton" name="toolButton">
+        <property name="text">
+         <string>修改属性</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <item>
+         <widget class="QCheckBox" name="checkBox">
+          <property name="text">
+           <string>标注困难的图</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBox_2">
+          <property name="text">
+           <string>验收模式</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBox_4">
+          <property name="text">
+           <string>连续标注</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBox_3">
+          <property name="text">
+           <string>车道线联动调整</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout" stretch="1,1,1,1,1,3,3">
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string>分割图编辑模式</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox">
+          <property name="title">
+           <string/>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <item>
+            <widget class="QRadioButton" name="radioButton">
+             <property name="text">
+              <string>画点</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QRadioButton" name="radioButton_2">
+             <property name="text">
+              <string>套索</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QRadioButton" name="radioButton_3">
+             <property name="text">
+              <string>画线</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <item>
+           <widget class="QCheckBox" name="checkBox_5">
+            <property name="text">
+             <string>使用默认标签</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit"/>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QGridLayout" name="gridLayout">
+          <item row="0" column="2">
+           <widget class="QLineEdit" name="lineEdit_3">
+            <property name="text">
+             <string>255</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QCheckBox" name="checkBox_6">
+            <property name="text">
+             <string>设置颜色深度</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="lineEdit_2">
+            <property name="text">
+             <string>0</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <widget class="QLabel" name="label_3">
+            <property name="text">
+             <string>鼠标灵敏度</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit_4">
+            <property name="text">
+             <string>5</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QListWidget" name="listWidget"/>
+        </item>
+        <item>
+         <widget class="QDockWidget" name="dockWidget_10">
+          <widget class="QWidget" name="dockWidgetContents_13">
+           <layout class="QVBoxLayout" name="verticalLayout_4">
+            <item>
+             <widget class="QListWidget" name="listWidget_2"/>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1049</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>文件</string>
+    </property>
+    <addaction name="action"/>
+    <addaction name="action_2"/>
+    <addaction name="action_3"/>
+    <addaction name="action_4"/>
+    <addaction name="action_5"/>
+    <addaction name="action_6"/>
+    <addaction name="action_7"/>
+    <addaction name="action_8"/>
+    <addaction name="action_9"/>
+    <addaction name="action_10"/>
+    <addaction name="action_Ctrl_Q"/>
+    <addaction name="action_Ctrl_X"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>编辑</string>
+    </property>
+    <addaction name="action_11"/>
+    <addaction name="action_12"/>
+    <addaction name="action_13"/>
+    <addaction name="action_14"/>
+    <addaction name="action_15"/>
+    <addaction name="action_16"/>
+    <addaction name="action_17"/>
+    <addaction name="action_18"/>
+    <addaction name="action_19"/>
+    <addaction name="action_20"/>
+    <addaction name="actionBoxLineColor"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>视图</string>
+    </property>
+    <addaction name="actionAuto_Saving"/>
+    <addaction name="actionSingle_Class_Mode_Ctrl_ShIft_S"/>
+    <addaction name="actionShow_Hide_Label_Panel_Ctrl_Shift_S"/>
+    <addaction name="actionAdvanced_Mode"/>
+    <addaction name="actionHide_RectBox"/>
+    <addaction name="actionShow_RectBox"/>
+    <addaction name="actionZoom_in"/>
+    <addaction name="actionZoom_out"/>
+    <addaction name="actionOriginal_size"/>
+    <addaction name="actionFit_Window_2"/>
+    <addaction name="actionFit_Width_2"/>
+   </widget>
+   <widget class="QMenu" name="menu_4">
+    <property name="title">
+     <string>帮助</string>
+    </property>
+    <addaction name="action_21"/>
+    <addaction name="action_22"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+   <addaction name="menu_4"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>24</width>
+     <height>24</height>
+    </size>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>LeftToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="action_24"/>
+   <addaction name="action_25"/>
+   <addaction name="action_26"/>
+   <addaction name="action_27"/>
+   <addaction name="action_28"/>
+   <addaction name="action_29"/>
+   <addaction name="action_30"/>
+   <addaction name="action_31"/>
+   <addaction name="action_32"/>
+   <addaction name="action_33"/>
+   <addaction name="action_34"/>
+   <addaction name="action_35"/>
+   <addaction name="action_36"/>
+   <addaction name="action_37"/>
+   <addaction name="action_38"/>
+   <addaction name="action_39"/>
+   <addaction name="action_40"/>
+   <addaction name="action_41"/>
+   <addaction name="action_42"/>
+   <addaction name="action_43"/>
+   <addaction name="actionZoom_In"/>
+   <addaction name="actionZoom_Out"/>
+   <addaction name="actionFit_Window"/>
+   <addaction name="actionFit_Width"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="action">
+   <property name="text">
+    <string>导入</string>
+   </property>
+  </action>
+  <action name="action_2">
+   <property name="text">
+    <string>图片文件夹</string>
+   </property>
+  </action>
+  <action name="action_3">
+   <property name="text">
+    <string>保存文件夹</string>
+   </property>
+  </action>
+  <action name="action_4">
+   <property name="text">
+    <string>最近访问</string>
+   </property>
+  </action>
+  <action name="action_5">
+   <property name="text">
+    <string>保存                        Ctrl+S</string>
+   </property>
+  </action>
+  <action name="action_6">
+   <property name="text">
+    <string>另存为                     Ctrl+Shift+S</string>
+   </property>
+  </action>
+  <action name="action_7">
+   <property name="text">
+    <string>下一张                     Right</string>
+   </property>
+  </action>
+  <action name="action_8">
+   <property name="text">
+    <string>上一张                     Left</string>
+   </property>
+  </action>
+  <action name="action_9">
+   <property name="text">
+    <string>关闭文件</string>
+   </property>
+  </action>
+  <action name="action_10">
+   <property name="text">
+    <string>重置</string>
+   </property>
+  </action>
+  <action name="action_Ctrl_Q">
+   <property name="text">
+    <string>修改多边形               Ctrl+Q</string>
+   </property>
+  </action>
+  <action name="action_Ctrl_X">
+   <property name="text">
+    <string>删除多边形               Ctrl+X</string>
+   </property>
+  </action>
+  <action name="action_11">
+   <property name="text">
+    <string>矩形框</string>
+   </property>
+  </action>
+  <action name="action_12">
+   <property name="text">
+    <string>线                          L</string>
+   </property>
+  </action>
+  <action name="action_13">
+   <property name="text">
+    <string>多边形                    Ctrl+A</string>
+   </property>
+  </action>
+  <action name="action_14">
+   <property name="text">
+    <string>圆                          Ctrl+W</string>
+   </property>
+  </action>
+  <action name="action_15">
+   <property name="text">
+    <string>添加交通标志           Up</string>
+   </property>
+  </action>
+  <action name="action_16">
+   <property name="text">
+    <string>删除交通标志           Down</string>
+   </property>
+  </action>
+  <action name="action_17">
+   <property name="text">
+    <string>取消                       Ctrl+Z</string>
+   </property>
+  </action>
+  <action name="action_18">
+   <property name="text">
+    <string>修改属性                 Ctrl+E</string>
+   </property>
+  </action>
+  <action name="action_19">
+   <property name="text">
+    <string>复制图形                 Ctrl+C</string>
+   </property>
+  </action>
+  <action name="action_20">
+   <property name="text">
+    <string>删除图形                 Del</string>
+   </property>
+  </action>
+  <action name="actionBoxLineColor">
+   <property name="text">
+    <string>BoxLineColor         Ctrl+L</string>
+   </property>
+  </action>
+  <action name="action_21">
+   <property name="text">
+    <string>软件信息</string>
+   </property>
+  </action>
+  <action name="action_22">
+   <property name="text">
+    <string>检查更新</string>
+   </property>
+  </action>
+  <action name="actionAuto_Saving">
+   <property name="text">
+    <string>Auto Saving</string>
+   </property>
+  </action>
+  <action name="actionSingle_Class_Mode_Ctrl_ShIft_S">
+   <property name="text">
+    <string>Single Class Mode              Ctrl+ShIft+S</string>
+   </property>
+  </action>
+  <action name="actionShow_Hide_Label_Panel_Ctrl_Shift_S">
+   <property name="text">
+    <string>Show/Hide  Label Panel       Ctrl+Shift+S</string>
+   </property>
+  </action>
+  <action name="actionAdvanced_Mode">
+   <property name="text">
+    <string>Advanced Mode                 Ctrl+Shift+A</string>
+   </property>
+  </action>
+  <action name="actionHide_RectBox">
+   <property name="text">
+    <string>Hide RectBox</string>
+   </property>
+  </action>
+  <action name="actionShow_RectBox">
+   <property name="text">
+    <string>Show RectBox</string>
+   </property>
+  </action>
+  <action name="actionZoom_in">
+   <property name="text">
+    <string>Zoom in                             Ctrl++</string>
+   </property>
+  </action>
+  <action name="actionZoom_out">
+   <property name="text">
+    <string>Zoom out                           Ctrl++</string>
+   </property>
+  </action>
+  <action name="action_24">
+   <property name="text">
+    <string>导入</string>
+   </property>
+   <property name="toolTip">
+    <string>导入</string>
+   </property>
+  </action>
+  <action name="action_25">
+   <property name="text">
+    <string>下载任务</string>
+   </property>
+   <property name="toolTip">
+    <string>下载任务</string>
+   </property>
+  </action>
+  <action name="action_26">
+   <property name="text">
+    <string>上传任务</string>
+   </property>
+   <property name="toolTip">
+    <string>package the xml file</string>
+   </property>
+  </action>
+  <action name="action_27">
+   <property name="text">
+    <string>上传最终标注</string>
+   </property>
+   <property name="toolTip">
+    <string>上传最终标注</string>
+   </property>
+  </action>
+  <action name="action_28">
+   <property name="text">
+    <string>解密</string>
+   </property>
+   <property name="toolTip">
+    <string>解密</string>
+   </property>
+  </action>
+  <action name="action_29">
+   <property name="text">
+    <string>计算价格</string>
+   </property>
+   <property name="toolTip">
+    <string>计算价格</string>
+   </property>
+  </action>
+  <action name="action_30">
+   <property name="text">
+    <string>矩形框</string>
+   </property>
+   <property name="toolTip">
+    <string>矩形框</string>
+   </property>
+  </action>
+  <action name="action_31">
+   <property name="text">
+    <string>点</string>
+   </property>
+   <property name="toolTip">
+    <string>点</string>
+   </property>
+  </action>
+  <action name="action_32">
+   <property name="text">
+    <string>线</string>
+   </property>
+   <property name="toolTip">
+    <string>线</string>
+   </property>
+  </action>
+  <action name="action_33">
+   <property name="text">
+    <string>多边形</string>
+   </property>
+   <property name="toolTip">
+    <string>多边形</string>
+   </property>
+  </action>
+  <action name="action_34">
+   <property name="text">
+    <string>圆</string>
+   </property>
+   <property name="toolTip">
+    <string>圆</string>
+   </property>
+  </action>
+  <action name="action_35">
+   <property name="text">
+    <string>取消</string>
+   </property>
+   <property name="toolTip">
+    <string>取消</string>
+   </property>
+  </action>
+  <action name="action_36">
+   <property name="text">
+    <string>复制图形</string>
+   </property>
+   <property name="toolTip">
+    <string>复制图形</string>
+   </property>
+  </action>
+  <action name="action_37">
+   <property name="text">
+    <string>删除图形</string>
+   </property>
+   <property name="toolTip">
+    <string>删除图形</string>
+   </property>
+  </action>
+  <action name="action_38">
+   <property name="text">
+    <string>下一张</string>
+   </property>
+   <property name="toolTip">
+    <string>下一张</string>
+   </property>
+  </action>
+  <action name="action_39">
+   <property name="text">
+    <string>上一张</string>
+   </property>
+   <property name="toolTip">
+    <string>上一张</string>
+   </property>
+  </action>
+  <action name="action_40">
+   <property name="text">
+    <string>保存</string>
+   </property>
+   <property name="toolTip">
+    <string>保存</string>
+   </property>
+  </action>
+  <action name="action_41">
+   <property name="text">
+    <string>图片文件夹</string>
+   </property>
+   <property name="toolTip">
+    <string>图片文件夹</string>
+   </property>
+  </action>
+  <action name="action_42">
+   <property name="text">
+    <string>保存文件夹</string>
+   </property>
+   <property name="toolTip">
+    <string>保存文件夹</string>
+   </property>
+  </action>
+  <action name="action_43">
+   <property name="text">
+    <string>打包</string>
+   </property>
+   <property name="toolTip">
+    <string>打包</string>
+   </property>
+  </action>
+  <action name="actionZoom_In">
+   <property name="text">
+    <string>Zoom In</string>
+   </property>
+   <property name="toolTip">
+    <string>Zoom In</string>
+   </property>
+  </action>
+  <action name="actionZoom_Out">
+   <property name="text">
+    <string>Zoom Out</string>
+   </property>
+   <property name="toolTip">
+    <string>Zoom Out</string>
+   </property>
+  </action>
+  <action name="actionFit_Window">
+   <property name="text">
+    <string>Fit Window</string>
+   </property>
+   <property name="toolTip">
+    <string>Fit Window</string>
+   </property>
+  </action>
+  <action name="actionFit_Width">
+   <property name="text">
+    <string>Fit Width</string>
+   </property>
+   <property name="toolTip">
+    <string>Fit Width</string>
+   </property>
+  </action>
+  <action name="actionOriginal_size">
+   <property name="text">
+    <string>Original size </string>
+   </property>
+  </action>
+  <action name="actionFit_Window_2">
+   <property name="text">
+    <string>Fit Window                         Ctrl+F</string>
+   </property>
+  </action>
+  <action name="actionFit_Width_2">
+   <property name="text">
+    <string>Fit Width</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

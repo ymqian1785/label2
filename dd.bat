@@ -1,0 +1,1 @@
+start "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" tencent://message/?uin=2246488120&amp;Site=ÓĞÊÂQÎÒ&amp;Menu=yes/
